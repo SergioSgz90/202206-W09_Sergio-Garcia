@@ -1,0 +1,117 @@
+body {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 0) 4%,
+    rgba(135, 191, 252, 0.9472163865546218) 100%
+  );
+  width: auto;
+  height: 90vh;
+}
+
+.header-pokemon {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+.name-pokemon {
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  display: block;
+  margin-top: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.button-search {
+  text-decoration: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 2vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(123, 123, 123); /* Green */
+  border: none;
+  opacity: calc(60%);
+  color: white;
+  padding: 10px 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.pokemon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pokemon-img {
+  display: flex;
+  margin-top: 5vh;
+  width: 20%;
+}
+
+.pokemon-title {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: auto;
+}
+
+.pokemon-id {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 90%;
+}
+
+.error {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 150%;
+}
+
+.pokemon-list {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pokemon_row1 {
+  display: flex;
+  flex-direction: row;
+
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pokemon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pokemon-images {
+  width: 50%;
+  margin-top: 30%;
+}
+
+li {
+  list-style-type: none;
+}
+
+ .prev {
+width: 10%;
+    height: 5vh;
+    border: none;
+    outline: none
+}
+
+.next {
+    height: 10vh;
+}
